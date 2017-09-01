@@ -1,0 +1,21 @@
+.container{
+	background-image: url(../images/starring.png);
+	
+}
+
+.wrapper{
+	height: 900px;
+	width: 960px;
+	margin: auto;
+	padding: 10px 50px;
+	background-image: url(../images/grilled.png);
+
+}
+
+#title {
+
+	font-family: 'Sedgwick Ave', cursive;
+	font-size: 100px;
+	padding: 40px;
+	margin: 30px 120px;
+}

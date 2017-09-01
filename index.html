@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trivia Game</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class= "container">
+
+
+	<div class="wrapper">
+
+		
+
+		
+		<div class="row">
+            <div class="col-lg-12 text-center">
+                <h1><span id = "title">Houston Trivia</span></h1>
+
+            <section id="welcome">
+            	<h3>H-Town fan? Press 'Start Game.'</h3>
+                <br><br>
+                <button id="startbutton">Start Game!</button>
+            </section>
+            
+
+            	<div id="quiz">
+            		<div id="counter">0</div>
+
+                	<h2>Who was not on the Houston Rockets '94-95 Championship Team?</h2>
+	                    <label><input type="radio" name = "q1" value="wrong"> Hakeem Olajuwon</label>
+		                <label><input type="radio" name = "q1" value="wrong"> Clyde Drexler</label>
+		                <label><input type="radio" name = "q1" value="wrong"> Chucky Brown</label>
+		                <label><input type="radio" name = "q1" value="right">Charles Barkley</label>
+
+		            <h2>Who was not born in Houston?</h2>
+	                    <label><input type="radio" name = "q2" value="wrong"> Beyonce Knowles</label>
+	                    <label><input type="radio" name = "q2" value="wrong"> Patrick Swayze</label>
+	                    <label><input type="radio" name = "q2" value="wrong">Paul Wall</label>
+	                    <label><input type="radio" name = "q2" value="right"> George Bush </label>
+	                  
+
+              		<h2>Who is the current mayor of Houston?</h2>
+	                    <label><input type="radio" name = "q3" value="wrong"> Annise Parker</label>
+	                    <label><input type="radio" name = "q3" value="right"> Sylvester Turner</label>
+	                    <label><input type="radio" name = "q3" value="wrong">Bill White </label>
+	                    <label><input type="radio" name = "q3" value="wrong">Lee Brown</label>
+
+           
+                 	<h2>Houston is the ____ most populous city in the US</h2>
+	                    <label><input type="radio" name = "q4" value="right"> 4th</label>
+	                    <label><input type="radio" name = "q4" value="wrong"> 5th</label>
+	                    <label><input type="radio" name = "q4" value="wrong">10th</label>
+	                    <label><input type="radio" name = "q4" value="wrong">6th</label>
+
+	                <h2>Which museum is not located in Houston?</h2>
+	                    <label><input type="radio" name = "q5" value="wrong">Bicycle Museum</label>
+	                    <label><input type="radio" name = "q5" value="wrong">Museum of Natural Science</label>
+	                    <label><input type="radio" name = "q5" value="wrong">Museum of Fine Arts</label>
+	                    <label><input type="radio" name = "q5" value="right">Guggenheim Museum
+	                    </label>
+	                
+	                <br><br>
+	                <button type="button" class="submit">Submit</button>
+
+                </div>
+
+                <div id="answerpage">
+	                <h1>
+	                	Questions correct: <span id= "correct"> 0</span>
+	                	<br>
+	                	Questions incorrect: <span id= "incorrect"> 0</span>
+	                	<br>
+	                	Questions unanswered: <span id= "unanswered"> 0</span>
+
+
+
+	                	<!-- <div id="incorrect">Questions incorrect: <span> 0</span></div>
+	                	<div id="unanswered"><p>Questions unanswered: <span> 0</span></div> -->
+	                </h1>
+                </div>
+              
+
+
+           
+                 </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+	
+</body>
+<script src="./assets/javascript/app.js"></script>
+</html>
